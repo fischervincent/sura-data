@@ -1,0 +1,28 @@
+{
+  "name": "sura-data",
+  "version": "0.0.1",
+  "description": "data tracking",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "url": "https://github.com/fischervincent/sura-data.git",
+    "type": "git"
+  },
+  "author": "Vincent Fischer",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@types/jest": "^26.0.14",
+    "dotenv": "^8.2.0",
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.5"
+  }
+}
